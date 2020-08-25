@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UI.Activity.WelcomActivity"
+    android:background="@drawable/welcom">
+
+
+    <Button
+        android:id="@+id/welcom_driver"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/welcom_driver"
+        android:layout_marginStart="80dp"
+        android:layout_marginEnd="80dp"
+        android:layout_marginTop="700dp"
+        android:onClick="driverlogin"
+        android:layout_centerInParent="true"
+        android:background="@android:color/white"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="20sp"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/welcom_customer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/welcom_driver"
+        android:layout_centerHorizontal="true"
+        android:textAllCaps="false"
+        android:layout_marginEnd="80dp"
+        android:layout_marginStart="80dp"
+        android:onClick="customerlogin"
+        android:text="@string/welcom_customer"
+        android:background="@android:color/holo_red_dark"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"/>
+
+</RelativeLayout>

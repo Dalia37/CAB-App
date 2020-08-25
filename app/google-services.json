@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "878467533273",
+    "firebase_url": "https://cabapp-8072d.firebaseio.com",
+    "project_id": "cabapp-8072d",
+    "storage_bucket": "cabapp-8072d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:878467533273:android:8050de92c0f2876feb31c8",
+        "android_client_info": {
+          "package_name": "com.example.cab"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "878467533273-a4tt837i1qb5p894m4i5laceh5k24s34.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDtWu0jPDOF7o89PE0EaBwm3frjluOYpTc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "878467533273-a4tt837i1qb5p894m4i5laceh5k24s34.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
